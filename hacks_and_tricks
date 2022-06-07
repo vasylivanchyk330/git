@@ -1,0 +1,49 @@
+
+
+# make changes to the last commit message
+git commit --amend -m "new message"
+
+# add newly change files to the previous commit
+git add .             # first add newly change files
+git commit --amend --no-change
+!!! works only with the commit tha has been pushed 
+
+# to undo commit, preserving the current commit version
+git revert 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================================================================================================
+======================================================================================================
+======================================================================================================
+
+GLOBAL ALIASES
+
+lias.st=status
+alias.last=log -1 HEAD --stat
+alias.a=add
+alias.gl=config --global -l
+alias.cm=commit -m
+alias.d=diff
+alias.dv=difftool -t vimdiff -y
+alias.cl=clone
+alias.co=checkout
+alias.com=checkout master
+alias.s=status
+alias.whoisbest=!echo DIDNT KNOW IT? VASYL IS THE BEST, INDEED
